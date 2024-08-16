@@ -77,7 +77,7 @@ h1{
 }
 /*Hero section*/
 .hero-section{
-    background: url('images/darline.jpg') no-repeat center/cover;
+    background: url('images/darline.jpg') no-repeat  center center/cover;
     color: rebeccapurple;
     text-align: center;
     padding: 100px 20px;
