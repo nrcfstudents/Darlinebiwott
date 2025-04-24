@@ -16,43 +16,39 @@
             <p><strong>Phone:</strong> <a href="tel:+254725130640">+254 725 130 640</a></p>
         </div>
     </div>
-    <h2>education and skills</h2>
+
+    <h2>Education and Skills</h2>
     <table>
         <tr>
-            <th>education</th>
-            <th>skills</th>
+            <th>Education</th>
+            <th>Skills</th>
         </tr>
         <tr>
-            <td>interior designing</td>
-            <td>drawing</td>
+            <td>Interior Designing</td>
+            <td>Drawing</td>
         </tr>
         <tr>
-            <td>art and design</td>
-            <td>painting</td>
+            <td>Art and Design</td>
+            <td>Painting</td>
         </tr>
         <tr>
-            <td>fashion and design</td>
-            <td>sketching</td>
+            <td>Fashion and Design</td>
+            <td>Sketching</td>
         </tr>
     </table>
-</div>
-<form action="">
-    <label>
-        Your Name
-    </label>
-    <input type="text" name="sender">
-    <label>
-        messeage
-    </label>
-    <textarea name="messeage">
-    </textarea>
-    <button type="submit">
-        send
-    </button>
-</form>
-<?php
- echo 8*8;
-?>
+
+    <form action="send message.php" method="post">
+        <label>Your Name</label>
+        <input type="text" name="sender" required>
+
+        <label>Message</label>
+        <textarea name="message" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+
+    <?php
+    echo "Hello, world!";
+    ?>
 </body>
 </html>
-
